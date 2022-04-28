@@ -27,24 +27,24 @@ jobs:
       - name: Build and Publish ddtrace_rb_1.9.3
         uses: docker/build-push-action@v2
         with:
-         context: ./dd-trace-rb/1.9.3
-         file: ./dd-trace-rb/1.9.3/Dockerfile
+         context: ./1.9.3
+         file: ./1.9.3/Dockerfile
          platforms: linux/arm64
          push: true
          tags: avinashyadavpuresoftware/ddtrace_rb_1.9.3:latest_arm
       - name: Build and Publish ddtrace_rb_2.0.0
         uses: docker/build-push-action@v2
         with:
-         context: ./dd-trace-rb/2.0.0
-         file: ./dd-trace-rb/2.0.0/Dockerfile
+         context: ./2.0.0
+         file: ./2.0.0/Dockerfile
          platforms: linux/arm64
          push: true
          tags: avinashyadavpuresoftware/ddtrace_rb_2.0.0:latest_arm
       - name: Build and Publish ddtrace_rb_2.1.10
         uses: docker/build-push-action@v2
         with:
-         context: ./dd-trace-rb/2.1.10
-         file: ./chef-kitchen/systemd/rocky8/Dockerfile
+         context: ./2.1.10
+         file: ./2.1.10/Dockerfile
          platforms: linux/arm64
          push: true
          tags: avinashyadavpuresoftwareddtrace_rb_2.1.10:latest_arm
@@ -52,8 +52,8 @@ jobs:
       - name: Build and Publish ddtrace_rb_2.2.10
         uses: docker/build-push-action@v2
         with:
-         context: ./dd-trace-rb/2.2.10
-         file: ./dd-trace-rb/2.2.10/Dockerfile
+         context: ./2.2.10
+         file: ./2.2.10/Dockerfile
          platforms: linux/arm64
          push: true
          tags: avinashyadavpuresoftware/ddtrace_rb_2.2.10:latest_arm
@@ -61,8 +61,8 @@ jobs:
       - name: Build and Publish ddtrace_rb_2.3.7
         uses: docker/build-push-action@v2
         with:
-         context: ./dd-trace-rb/2.3.7
-         file: ./dd-trace-rb/2.3.7/Dockerfile
+         context: ./2.3.7
+         file: ./2.3.7/Dockerfile
          platforms: linux/arm64
          push: true
          tags: avinashyadavpuresoftware/ddtrace_rb_2.3.7:latest_arm
@@ -71,8 +71,8 @@ jobs:
       - name: Build and Publish ddtrace_rb_2.4.4
         uses: docker/build-push-action@v2
         with:
-         context: ./dd-trace-rb/2.4.4
-         file: ./dd-trace-rb/2.4.4/Dockerfile
+         context: ./2.4.4
+         file: ./2.4.4/Dockerfile
          platforms: linux/arm64
          push: true
          tags: avinashyadavpuresoftware/ddtrace_rb_2.4.4:latest_arm
