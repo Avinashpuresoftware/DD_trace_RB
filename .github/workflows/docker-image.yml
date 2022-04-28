@@ -49,14 +49,6 @@ jobs:
          push: true
          tags: avinashyadavpuresoftware/ddtrace_rb_2.1.10:latest_arm
          
-      - name: Build and Publish ddtrace_rb_2.2.10
-        uses: docker/build-push-action@v2
-        with:
-         context: ./2.2.10
-         file: ./2.2.10/Dockerfile
-         platforms: linux/arm64
-         push: true
-         tags: avinashyadavpuresoftware/ddtrace_rb_2.2.10:latest_arm
          
       - name: Build and Publish ddtrace_rb_2.3.7
         uses: docker/build-push-action@v2
